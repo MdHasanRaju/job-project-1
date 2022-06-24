@@ -10,10 +10,12 @@ body{
 }
 
 .button {
-    background-color: #0265a7;
+    /* background-color: #0265a7; */
+    background: linear-gradient(to right, #6a3093, #4c09e6);
+
     border: none;
     color: white;
-    padding: 15px 30px;
+    padding: 15px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -24,7 +26,7 @@ body{
   .button1 {border-radius: 30px;}
 
   .buy-button {
-    background-color: #0265a7;
+    background: linear-gradient(to right, #7914c1, #4904ea);
     border: none;
     color: white;
     padding: 10px 15px;
@@ -219,13 +221,19 @@ body{
      height: 100%;
  }
  .gift_bbb_viewed{
-  margin-top: -245px;
+  margin-top: -256px;
  }
 
  .gift_bbb_viewed .card{
   width: 200px;
   border-radius: 0;;
   height: 300px;
+ }
+ .gift_bbb_viewed .card2{
+  width: 205px;
+  border-radius: 0;;
+  height: 250px;
+  padding: 0;;
  }
 
  .bbb_viewed div{
@@ -404,7 +412,7 @@ body{
   /* padding-bottom: 400px; */
 }
 .gift-card-left div .desc{
-  padding-bottom: 325px;
+  padding-bottom: 265px;
 }
 .gift-card-outer-right{
   border: 20px solid gainsboro;
