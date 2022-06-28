@@ -1,0 +1,410 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* navbar 
+--------------*/
+.navbar-color {
+  background: linear-gradient(to right, #9524e6, #5f24e7) !important;
+  color: white !important;
+}
+
+.nav-ul li a {
+  border-right: 1px solid white;
+  color: white !important;
+}
+
+/* works section
+-------------------- */
+.shape {
+  background: url("./images/bg-shape-7-removebg-preview (2).png");
+  background-position: 10%;
+  background-repeat: no-repeat;
+  padding: 45px 0px;
+}
+
+.works-container .works-bg-color {
+  padding: 40px 0;
+  background: linear-gradient(to right, #a94beb, #126cc7);
+}
+.works-container .works-column-img {
+  position: relative;
+  z-index: 1;
+}
+.works-container .works-column-img img {
+  position: absolute;
+  right: -95px;
+  transform: rotate(25deg);
+  top: -23px;
+}
+.works-container .works-column .card .number-badge {
+  background: #da2cf5;
+}
+.works-container .works-column .card .clock-badge {
+  left: 55% !important;
+  background: #d4b5ea;
+}
+.works-container .works-column .card .box-badge {
+  left: 70% !important;
+  background: #d4b5ea;
+}
+.works-container .works-column .card .scale-badge {
+  left: 85% !important;
+  background: #d4b5ea;
+}
+.works-container .works-column .card .comment-badge {
+  left: 80%;
+  background: #6d3df3;
+}
+
+/* feature-Carousel-Section */
+.home-demo .item {
+  background: #ff3f4d;
+}
+.home-demo h2 {
+  color: #fff;
+  text-align: center;
+  padding: 5rem 0;
+  margin: 0;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.img-carousel-section {
+  background-color: white;
+}
+
+.owl-item >.card {
+  width: 215px;
+  height: 325px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 10px;
+}
+
+.card .card_image {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.card .card_image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.card .card_image {
+  width: 100%;
+  height: 100%;
+}
+.card .card_image2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.owl-item .card:hover {
+  transform: scale(0.9, 0.9);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+/* Carousel */
+.bbb_viewed .card_image2 {
+  height: 100%;
+}
+.gift_bbb_viewed {
+  margin-top: -256px;
+}
+
+.gift_bbb_viewed .card {
+  width: 200px;
+  border-radius: 0;
+  height: 300px;
+}
+.gift_bbb_viewed .card2 {
+  width: 205px;
+  border-radius: 0;
+  height: 250px;
+  padding: 0;
+}
+
+.bbb_viewed div {
+  position: relative;
+  text-align: right;
+}
+
+.bbb_main_container {
+  padding: 11px;
+}
+
+.bbb_viewed_title_container {
+  border-bottom: solid 1px #dadada;
+}
+
+.bbb_viewed_title {
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+.bbb_viewed_nav_container {
+  position: absolute;
+  right: -5px;
+  bottom: 14px;
+}
+
+.bbb_viewed_nav {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bbb_viewed_nav i {
+  color: #dadada;
+  font-size: 18px;
+  padding: 5px;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.bbb_viewed_nav:hover i {
+  color: #606264;
+}
+
+.bbb_viewed_prev {
+  margin-right: 15px;
+}
+
+.bbb_viewed_slider_container {
+  padding-top: 13px;
+}
+
+.bbb_viewed_item {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 2px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.bbb_viewed_image {
+  width: 150px;
+  height: 150px;
+}
+
+.bbb_viewed_image img {
+  display: block;
+  max-width: 100%;
+}
+
+.bbb_viewed_content {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.bbb_viewed_price {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.bbb_viewed_item.discount .bbb_viewed_price {
+  color: #df3b3b;
+}
+
+.bbb_viewed_price span {
+  position: relative;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+  margin-left: 8px;
+}
+
+.bbb_viewed_price span::after {
+  display: block;
+  position: absolute;
+  top: 6px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: 1px;
+  background: #8d8d8d;
+  content: "";
+}
+
+.bbb_viewed_name {
+  margin-top: 3px;
+}
+
+.bbb_viewed_name a {
+  font-size: 14px;
+  color: #000000;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.bbb_viewed_name a:hover {
+  color: #0e8ce4;
+}
+
+.item_marks {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+}
+
+.item_mark {
+  display: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+}
+
+.item_discount {
+  background: #df3b3b;
+  margin-right: 5px;
+}
+
+.item_new {
+  background: #0e8ce4;
+}
+
+.bbb_viewed_item.discount .item_discount {
+  display: inline-block;
+}
+
+.bbb_viewed_item.is_new .item_new {
+  display: inline-block;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+  color: #000;
+  background: transparent;
+  font-size: 20px;
+  padding: 0;
+}
+
+.load-more .btn {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 30px;
+  padding: 12px 30px;
+}
+.btn {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 150px;
+}
+
+.btn.btn-outline {
+  background: 0 0;
+}
+
+.btn-outline.btn-secondary {
+  border-color: #8069e8;
+  color: black;
+}
+
+.btn-outline.btn-secondary:focus,
+.btn-outline.btn-secondary:hover {
+  color: #ffffff;
+  border-color: #7f64f5;
+  background-color: #7153f6;
+}
+
+/* image-card-carousel-responsiveness
+----------------------------------- */
+/* image-card-carousel-responsiveness for mobile device */
+@media only screen and (max-width: 600px) and (min-width: 350px) {
+  .owl-item .card {
+    width: 360px !important;
+    height: 395px !important;
+    border-radius: 25px;
+  }
+}
+
+/* image-card-carousel-responsiveness for tablet device */
+/* it is done
+---------------*/
+
+/* offer-section
+------------------- */
+.offer-card{
+  height: 80% !important;
+}
+.offer-card img{
+  padding: 4px;
+  border-radius: 8px;
+  height: 60% !important;
+}
+
+.custom-card-body{
+  padding: 2px 10px !important;
+}
+
+.star-icon {
+  color: #ddd;
+  font-size: 1.5em;
+  position: relative;
+}
+
+.star-icon.full:before {
+  text-shadow: 0 0 2px rgba(0,0,0,0.7);
+  color: #FDE16D;
+  content: '\2605'; /* Full star in UTF-8 */
+  position: absolute;
+  left: 0;
+}
+
+.star-icon.half:before {
+  text-shadow: 0 0 2px rgba(0,0,0,0.7);
+  color: #FDE16D;
+  content: '\2605'; /* Full star in UTF-8 */
+  position: absolute;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+}
+
+@-moz-document url-prefix() { 
+.star-icon {
+  font-size: 50px;
+  line-height: 34px;
+}
+}

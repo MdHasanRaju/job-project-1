@@ -9,10 +9,12 @@ body {
   overflow-x: hidden;
 }
 
+/* navbar top
+--------------- */
 .button {
   background: linear-gradient(to right, #6a3093, #4c09e6);
-  border: none;
   color: white;
+  border: none;
   padding: 15px 40px;
   text-align: center;
   text-decoration: none;
@@ -25,6 +27,7 @@ body {
   border-radius: 30px;
 }
 
+/* banner bottom mystery section button */
 .buy-button {
   background: linear-gradient(to right, #7914c1, #4904ea);
   border: none;
@@ -46,6 +49,7 @@ body {
   margin: 0 10px;
 }
 
+/* banner-section-carousel */
 .carousel-indicators [data-bs-target] {
   width: 14px !important;
   height: 10px !important;
