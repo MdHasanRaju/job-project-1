@@ -21,6 +21,39 @@ body {
   color: white !important;
 }
 
+/* banner-carousel-section
+--------------------------- */
+/* #owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: 80vh;
+} */
+.banner-owl-bg{
+  background-color: #533ef4;
+}
+
+#owl-demo .item img {
+  display: block;
+  width: 20%;
+  height: 45vh;
+}
+
+.owl-theme .owl-controls {
+  margin-top: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.owl-theme .owl-controls .owl-buttons div .banner-arrow {
+  color: rgb(238, 229, 229) !important;
+  background: transparent;
+  font-size: 20px;
+  padding: 0;
+}
+
+
 /* works section
 -------------------- */
 .shape {

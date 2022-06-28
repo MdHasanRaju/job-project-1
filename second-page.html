@@ -95,6 +95,41 @@
     </header>
 
     <main>
+      <!-- banner-section -->
+      <section>
+        <div class="container my-5">
+          <div id="owl-demo" class="owl-carousel owl-theme p-3 banner-owl-bg text-light">
+            <div class="item text-light">
+              <div class="d-flex align-items-center justify-content-center h-100">
+                <img class="" src="./images/bg-treasure-box1.png" alt="The Last of us" />
+                <div class="ps-3 text-light">
+                  <h4>Get free gift cards & discounts</h4>
+                  <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptas quibusdam cupiditate. </p>
+                </div>
+              </div>
+            </div>
+            <div class="item text-light">
+              <div class="d-flex align-items-center justify-content-center h-100">
+                <img class="" src="./images/bg-treasure-box1.png" alt="The Last of us" />
+                <div class="ps-3 text-light">
+                  <h4>Get free gift cards & discounts</h4>
+                  <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptas quibusdam cupiditate. </p>
+                </div>
+              </div>
+            </div>
+            <div class="item text-light">
+              <div class="d-flex align-items-center justify-content-center h-100">
+                <img class="" src="./images/bg-treasure-box1.png" alt="The Last of us" />
+                <div class="ps-3 text-light">
+                  <h4>Get free gift cards & discounts</h4>
+                  <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptas quibusdam cupiditate. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- How it works section -->
       <section class="works-section my-3">
         <div class="container works-container">
@@ -474,7 +509,7 @@
           viewedSlider.owlCarousel({
             loop: true,
             margin: 25,
-            autoplay: true,
+            autoplay: 300,
             autoplayTimeout: 6000,
             nav: false,
             dots: false,
@@ -511,6 +546,31 @@
             });
           }
         }
+      });
+
+      // banner-owl-carousel
+      $(document).ready(function () {
+        $("#owl-demo").owlCarousel({
+          navigation: true, // Show next and prev buttons
+          autoPlay: 6000,
+          navigationText: [
+              "<i class='fa-solid fa-arrow-left-long banner-arrow'></i>",
+              "<i class='fa-solid fa-arrow-right-long banner-arrow'></i>",
+            ],
+            navText: [
+              '<i class="fa fa-angle-left banner-arrow" aria-hidden="true"></i>',
+              '<i class="fa fa-angle-right banner-arrow" aria-hidden="true"></i>',
+            ],
+
+          slideSpeed: 300,
+          paginationSpeed: 400,
+
+          items: 1,
+          itemsDesktop: false,
+          itemsDesktopSmall: false,
+          itemsTablet: false,
+          itemsMobile: false,
+        });
       });
     </script>
   </body>
