@@ -39,7 +39,6 @@ body {
   text-align: center;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row-reverse;
 }
 
 .owl-theme .owl-controls .owl-buttons div .banner-arrow {
