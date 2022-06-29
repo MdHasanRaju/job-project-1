@@ -129,6 +129,45 @@ body {
   background: #6d3df3;
 }
 
+/* how-it-works section responsiveness with media query
+------------------------------------ */
+/* responsiveness for mobile device */
+@media only screen and (max-width:600px) {
+  .works-container .works-column-img {
+    position: relative;
+    z-index: 1;
+    padding: 10px 26px;
+}
+  .works-container .works-column-img img {
+    display: none;
+}
+  .works-container .works-column div div p{
+    font-size: 14px;
+}
+.works-container .works-column-padding{
+  padding: 6px 26px;
+}
+.works-container .works-column .card .clock-badge {
+  left: 50% !important;
+  background: #d4b5ea;
+}
+.works-container .works-column .card .box-badge {
+  left: 67% !important;
+  background: #d4b5ea;
+}
+.works-container .works-column .card .scale-badge {
+  left: 85% !important;
+  background: #d4b5ea;
+}
+
+.item div div h4 {
+  font-size: calc(1.275rem + 0.2vw);
+}
+.item div div p {
+  font-size: calc(1.275rem + -1.5vw);
+}
+}
+
 /* feature-Carousel-Section */
 .home-demo .item {
   background: #ff3f4d;
