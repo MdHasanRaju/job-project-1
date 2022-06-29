@@ -21,7 +21,7 @@ body {
   color: white !important;
 }
 
-/* banner-carousel-section
+/* banner-section
 --------------------------- */
 /* #owl-demo .item img{
   display: block;
@@ -53,6 +53,38 @@ body {
   padding: 0;
 }
 
+
+/* banner-section responsiveness with media query
+------------------------------------ */
+/* responsiveness for mobile device */
+@media only screen and (max-width:600px) {
+  #owl-demo .item img {
+    display: block;
+    width: 38%;
+    height: 26vh;
+}
+.item div div h4 {
+  font-size: calc(1.275rem + 0.2vw);
+}
+.item div div p {
+  font-size: calc(1.275rem + -1.5vw);
+}
+}
+
+/* responsiveness for tablet device */
+@media only screen and (min-width:601px) and (max-width:991px) {
+  #owl-demo .item img {
+    display: block;
+    width: 38%;
+    height: 22vh;
+}
+.item div div h4 {
+  font-size: calc(1.275rem + 0.3vw);
+}
+.item div div p {
+  font-size: calc(1.275rem + -.7vw);
+}
+}
 
 /* works section
 -------------------- */
