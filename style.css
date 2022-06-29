@@ -177,7 +177,7 @@ body {
 /* mystery-section-responsiveness
 ----------------------------------- */
 /* mystery section mobile-device */
-@media only screen and (max-width: 600px) and (min-width: 350px) {
+@media only screen and (max-width: 600px) {
   .mystery-section .mystery-row .mystery-joinfroo .join-div {
     display: block !important;
     text-align: center;
@@ -502,7 +502,7 @@ body {
 /* image-card-carousel-responsiveness
 ----------------------------------- */
 /* image-card-carousel-responsiveness for mobile device */
-@media only screen and (max-width: 600px) and (min-width: 350px) {
+@media only screen and (max-width: 600px) {
   .owl-item .card {
     width: 360px !important;
     height: 395px !important;
@@ -593,7 +593,7 @@ body {
 /* gift-card-section responsiveness
 ----------------------------------- */
 /* gift-card-responsiveness for mobile device */
-@media only screen and (max-width: 600px) and (min-width: 350px) {
+@media only screen and (max-width: 600px) {
   .gift-card-section {
     padding: 60px 35px;
   }
